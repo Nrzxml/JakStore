@@ -1,0 +1,30 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and generated files
+**/vendor/
+**/node_modules/
+**/.dart_tool/
+**/build/
+**/.gradle/
+**/.kotlin/
+**/coverage/
+**/local.properties
+**/storage/logs/*
+**/*.sqlite
+**/*.sqlite-*
+**/*.log
+
+# Local screenshots and exported artifacts
+flutter_app/artifacts/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
